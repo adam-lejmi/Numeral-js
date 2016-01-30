@@ -444,6 +444,12 @@
         defaultFormat = typeof(format) === 'string' ? format : '0.0';
     };
 
+    numeral.language = function (key, values) {
+        if (values || !languages[key]) {
+            loadLanguage(key, values);
+        }
+    };
+
     /************************************
         Helpers
     ************************************/
