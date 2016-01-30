@@ -1,7 +1,5 @@
 {
-  "name": "numeral",
-  "repo": "adamwdraper/Numeral-js",
-  "version": "1.5.3",
+  "name": "numeral-poynt",
   "description": "Format and manipulate numbers.",
   "keywords": [
     "numeral",
