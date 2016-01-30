@@ -567,7 +567,7 @@
                 loadLanguage(key, values);
             }
 
-            return numeral;
+            return this;
         },
 
         languageData:function (key) {
