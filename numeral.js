@@ -96,7 +96,7 @@
             if (string === zeroFormat) {
                 n._value = 0;
             } else {
-                if (languages[_currentLanguage].delimiters.decimal !== '.') {
+                if (languages[n._currentLanguage].delimiters.decimal !== '.') {
                     string = string.replace(/\./g,'').replace(languages[n._currentLanguage].delimiters.decimal, '.');
                 }
 
